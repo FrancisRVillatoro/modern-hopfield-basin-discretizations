@@ -1,0 +1,56 @@
+{
+ "trajectory": {
+  "dt=0.4": {
+   "err": 0.0008767090117531125,
+   "evals_per_step": 55.95,
+   "max_dE": -0.00015225441818245145
+  },
+  "dt=0.2": {
+   "err": 0.0002196421557026472,
+   "evals_per_step": 62.775,
+   "max_dE": -6.532105282985867e-05
+  },
+  "dt=0.1": {
+   "err": 5.493839767848689e-05,
+   "evals_per_step": 65.7,
+   "max_dE": -2.9909752399248646e-05
+  },
+  "dt=0.05": {
+   "err": 1.3736325906020316e-05,
+   "evals_per_step": 60.0,
+   "max_dE": -1.4269099317232303e-05
+  },
+  "dt=0.025": {
+   "err": 3.4341887167165295e-06,
+   "evals_per_step": 63.684375,
+   "max_dE": -6.963776570501068e-06
+  }
+ },
+ "eoc": [
+  2.0,
+  2.0,
+  2.0,
+  2.0
+ ],
+ "identity_residual_dt0.4": 1.3658778968972385e-14,
+ "true_energy": {
+  "dt=0.5": {
+   "DG_worst_increase": "2.04e-06",
+   "DG_evals_per_step": 283.74,
+   "SAV_worst_increase": "2.16e-04",
+   "SAV_evals_per_step": 1.0
+  },
+  "dt=1.0": {
+   "DG_worst_increase": "1.39e-04",
+   "DG_evals_per_step": 293.48,
+   "SAV_worst_increase": "1.97e-03",
+   "SAV_evals_per_step": 1.0
+  },
+  "dt=2.0": {
+   "DG_worst_increase": "1.80e+03",
+   "DG_evals_per_step": 301.5,
+   "SAV_worst_increase": "5.22e-01",
+   "SAV_evals_per_step": 1.0
+  }
+ }
+}

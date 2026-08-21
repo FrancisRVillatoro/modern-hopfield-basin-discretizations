@@ -1,0 +1,26 @@
+{
+ "dt=0.5": {
+  "worst_increase": "2.13e-14",
+  "evals_per_step": 262.3,
+  "solver_failures": 400,
+  "identity_residual": "1.2e-13"
+ },
+ "dt=1.0": {
+  "worst_increase": "2.84e-14",
+  "evals_per_step": 197.9,
+  "solver_failures": 286,
+  "identity_residual": "2.9e-13"
+ },
+ "dt=2.0": {
+  "worst_increase": "4.26e-14",
+  "evals_per_step": 277.3,
+  "solver_failures": 662,
+  "identity_residual": "8.8e-14"
+ },
+ "dt=4.0": {
+  "worst_increase": "9.59e-13",
+  "evals_per_step": 295.7,
+  "solver_failures": 878,
+  "identity_residual": "2.0e-12"
+ }
+}

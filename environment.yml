@@ -1,0 +1,9 @@
+name: modern-hopfield-basin-discretizations
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13
+  - numpy=2.3.5
+  - scipy=1.17.0
+  - matplotlib=3.10.8
+  - scikit-learn=1.8.0

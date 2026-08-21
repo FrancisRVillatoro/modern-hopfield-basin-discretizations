@@ -1,0 +1,93 @@
+{
+ "minima": [
+  [
+   -0.49707627225479534,
+   -1.7971683066091264
+  ],
+  [
+   -0.9987079195741662,
+   1.4984883480530526
+  ],
+  [
+   1.9982337312615839,
+   -0.0008175757964490751
+  ]
+ ],
+ "E_minima": [
+  -1.7459308603088475,
+  -1.6254429707783613,
+  -2.000452721722269
+ ],
+ "saddles": [
+  [
+   -0.6792729168858216,
+   -0.08849806422538746
+  ],
+  [
+   0.651499906767115,
+   -0.9605573115139895
+  ],
+  [
+   0.3492810485726905,
+   0.78061637187889
+  ]
+ ],
+ "E_saddles": [
+  -0.7701595242818848,
+  -1.1454363800548917,
+  -0.8692101148675806
+ ],
+ "maxima": [
+  [
+   -0.11109706452505244,
+   0.029662574439463026
+  ]
+ ],
+ "n_critical": 7,
+ "cstar": [
+  -1.1454363800548917,
+  -0.8692101148675806,
+  -1.1454363800548917
+ ],
+ "grid_h": 0.020000000000000018,
+ "flow_tol_agreement_subsample": 1.0,
+ "flow_nonconv_frac": 0.0,
+ "discrete": {
+  "theta=0.5": {
+   "disagree_frac": 3.311221730444476e-05,
+   "n_disagree": 3,
+   "min_E_disagree": -0.7251352007950634,
+   "violations_below_cstar": 0,
+   "median_dist_to_separatrix": 0.003005750160892814,
+   "max_dist_to_separatrix": 0.020579650784896854,
+   "nonconv_frac": 0.0
+  },
+  "theta=1.0": {
+   "disagree_frac": 0.00011037405768148254,
+   "n_disagree": 10,
+   "min_E_disagree": -0.9282692718917263,
+   "violations_below_cstar": 0,
+   "median_dist_to_separatrix": 0.006968966594289954,
+   "max_dist_to_separatrix": 0.026853065968723014,
+   "nonconv_frac": 0.0
+  },
+  "theta=1.5": {
+   "disagree_frac": 0.005253805145638569,
+   "n_disagree": 476,
+   "min_E_disagree": -0.9282692718917263,
+   "violations_below_cstar": 0,
+   "median_dist_to_separatrix": 0.03301547322431124,
+   "max_dist_to_separatrix": 0.14012776384240103,
+   "nonconv_frac": 0.0
+  },
+  "theta=1.9": {
+   "disagree_frac": 0.13507577179059835,
+   "n_disagree": 12238,
+   "min_E_disagree": -0.9282692718917263,
+   "violations_below_cstar": 0,
+   "median_dist_to_separatrix": 1.1890292157107043,
+   "max_dist_to_separatrix": 3.4042732512887306,
+   "nonconv_frac": 0.0
+  }
+ }
+}

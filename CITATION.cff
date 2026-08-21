@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software or its numerical results, please cite the archived release."
+title: "Basin-preserving discretizations of modern Hopfield retrieval dynamics: reproducibility code"
+type: software
+authors:
+  - family-names: "Villatoro"
+    given-names: "Francisco R."
+    orcid: "https://orcid.org/0000-0003-4314-6213"
+version: "1.0.0"
+date-released: "2026-08-21"
+repository-code: "https://github.com/FrancisRVillatoro/modern-hopfield-basin-discretizations"
+license: MIT
+keywords:
+  - modern Hopfield networks
+  - associative memory
+  - attention
+  - gradient flows
+  - time discretization
+  - basin preservation
