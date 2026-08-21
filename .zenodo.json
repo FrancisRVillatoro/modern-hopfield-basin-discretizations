@@ -1,0 +1,25 @@
+{
+  "creators": [
+    {
+      "name": "Villatoro, Francisco R.",
+      "orcid": "0000-0003-4314-6213",
+      "affiliation": "Universidad de Málaga",
+      "type": "ProjectMember"
+    }
+  ],
+  "title": "Basin-preserving discretizations of modern Hopfield retrieval dynamics: reproducibility code",
+  "version": "1.0.0",
+  "access_right": "open",
+  "keywords": [
+    "modern Hopfield networks",
+    "associative memory",
+    "attention",
+    "gradient flows",
+    "time discretization",
+    "basin preservation"
+  ],
+  "license": "mit",
+  "upload_type": "software",
+  "language": "eng",
+  "description": "Reproducibility code, archived numerical outputs, and figure-generation scripts for the manuscript 'Basin-Preserving Discretizations of Modern Hopfield Retrieval Dynamics: Energy Cells, Dissipation, and the Attention Limit'."
+}
