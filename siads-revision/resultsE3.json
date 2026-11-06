@@ -1,0 +1,54 @@
+{
+ "E_minima": [
+  -1.7459308603088475,
+  -1.6254429707783613,
+  -2.000452721722269
+ ],
+ "E_saddles": [
+  -0.7701595242818848,
+  -1.1454363800548917,
+  -0.8692101148675806
+ ],
+ "n_critical": 7,
+ "cstar": [
+  -1.1454363800548917,
+  -0.8692101148675806,
+  -1.1454363800548917
+ ],
+ "horizon": {
+  "max_dist_to_attractor_T60": 3.920359900996522e-11,
+  "frac_dist_gt_1e6": 0.0,
+  "frac_dist_gt_1e8": 0.0
+ },
+ "boundary": {
+  "n_boundary_nodes": 894,
+  "n_label_changes_tol1e9_T120": 0
+ },
+ "discrete": {
+  "theta=0.5": {
+   "n_disagree": 3,
+   "violations": 0,
+   "median_dist_sep": 0.003005750160892814,
+   "max_dist_sep": 0.020579650784896854
+  },
+  "theta=1.0": {
+   "n_disagree": 10,
+   "violations": 0,
+   "median_dist_sep": 0.006968966594289954,
+   "max_dist_sep": 0.026853065968723014
+  },
+  "theta=1.5": {
+   "n_disagree": 476,
+   "violations": 0,
+   "median_dist_sep": 0.03301547322431124,
+   "max_dist_sep": 0.14012776384240103
+  },
+  "theta=1.9": {
+   "n_disagree": 12238,
+   "violations": 0,
+   "median_dist_sep": 1.1890292157107043,
+   "max_dist_sep": 3.4042732512887306
+  }
+ },
+ "total_disagree": 12727
+}
