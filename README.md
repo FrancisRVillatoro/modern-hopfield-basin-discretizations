@@ -142,3 +142,7 @@ commit.
 ## License
 
 The software in this repository is released under the MIT License.
+
+## siads-revision/
+
+Validation and replication scripts added for the revised version (horizon and tolerance audit of Campaign E; Campaign H over ten seeds; Campaign G over thirty initializations), with their raw outputs. The Zenodo record 10.5281/zenodo.22048179 archives the original package and is unchanged.
