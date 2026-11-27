@@ -4,9 +4,10 @@ __pycache__/
 venv/
 .env
 .DS_Store
-*.aux
-*.bbl
-*.blg
-*.log
-*.out
-*.synctex.gz
+# Files written by the scripts
+results/
+figures/
+*.json
+!.zenodo.json
+*.csv
+*.pdf

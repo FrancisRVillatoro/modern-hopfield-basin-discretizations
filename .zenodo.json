@@ -8,7 +8,7 @@
     }
   ],
   "title": "Basin-preserving discretizations of modern Hopfield retrieval dynamics: reproducibility code",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "access_right": "open",
   "keywords": [
     "modern Hopfield networks",
@@ -21,5 +21,5 @@
   "license": "mit",
   "upload_type": "software",
   "language": "eng",
-  "description": "Reproducibility code, archived numerical outputs, and figure-generation scripts for the manuscript 'Basin-Preserving Discretizations of Modern Hopfield Retrieval Dynamics: Energy Cells, Dissipation, and the Attention Limit'."
+  "description": "Code that reproduces every numerical result and figure of the article 'Basin-Preserving Discretizations of Modern Hopfield Retrieval Dynamics: Energy Cells, Dissipation, and the Attention Limit'. Running the scripts regenerates all data."
 }

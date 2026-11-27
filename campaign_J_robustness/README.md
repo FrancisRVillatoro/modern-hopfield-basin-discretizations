@@ -1,0 +1,7 @@
+# Campaign J dimension and temperature controls
+
+Run `python campaign_j_robustness.py` from this directory. The script reads the original Campaign J implementation from `../campaign_J/campaign_j.py`. Run with `--base-script PATH` to select another location and `--output DIRECTORY` to write elsewhere. Requirements are NumPy, SciPy and Matplotlib, as in the original campaign. The original implementation sets BLAS to one thread.
+
+The controls use dimension 64, memory counts 32 and 128, shared-component parameter 0.6, corruption amplitudes 0.5 and 2, and inverse temperatures with beta times dimension equal to 12, 18 and 24. Each load has 16 independently drawn banks, with Gaussian cue draws shared across amplitudes and the same banks and cues reused at each inverse temperature. Every configuration/amplitude has 2048 evaluations, with 128 queries per bank and equal targeting of all patterns.
+
+The seed CSV has 192 rows, each containing one bank's counts for one load, temperature and corruption amplitude. `recall_*` counts exact nearest-pattern labels, with unresolved terminal states counted as failures. The `resolved_*_flow` and `disagree_*_flow` fields count resolved pairs and differing terminal states respectively, using the same stationarity and matching thresholds as the original campaign scaled by the square root of the dimension. The summary pools counts over banks. Pointwise 95% percentile intervals use 10,000 bank-level bootstrap draws, with the same bank indices resampled across temperatures and amplitudes at a fixed load.
